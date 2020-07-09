@@ -47,7 +47,7 @@ public class EmployeeMapper {
 		return empResponse;
 
 	}
-
+//fetch mapper
 	public ResponseEntity<?> fetchRecordByIdMap(EmployeePrimaryKey empPkey) {
 		log.info("IN FETCH METHOD MAPPER");
 		Employee emp = employeeService.fetchRecordById(empPkey).getBody();
